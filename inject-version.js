@@ -4,8 +4,8 @@ const childProcess = require("child_process");
 const urlKey = "~URL~";
 const gitKey = "~SHA~";
 const dateKey = "~DATE~";
-const templateFile = "./src/environments/version.template";
-const outputFile = "./src/environments/version.ts";
+const templateFile = "./src/version.template";
+const outputFile = "./src/version.ts";
 
 function replace(key, value) {
   const data = fs.readFileSync(outputFile, "utf8");
