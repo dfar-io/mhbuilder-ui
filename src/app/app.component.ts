@@ -45,21 +45,21 @@ export class AppComponent implements OnInit {
   calc() {
     const startTime = performance.now(); // Start timing
 
-    this.helmData.forEach(h => {
-      this.mailData.forEach(m => {
-        this.braceData.forEach(b => {
-          this.coilData.forEach(c => {
-            this.greaveData.forEach(g => {
-              // const def = h.baseDefense +
-              //             m.baseDefense +
-              //             b.baseDefense +
-              //             c.baseDefense +
-              //             g.baseDefense;
-            });
-          });
-        });
-      });
-    });
+    // this.helmData.forEach(h => {
+    //   this.mailData.forEach(m => {
+    //     this.braceData.forEach(b => {
+    //       this.coilData.forEach(c => {
+    //         this.greaveData.forEach(g => {
+    //           // const def = h.baseDefense +
+    //           //             m.baseDefense +
+    //           //             b.baseDefense +
+    //           //             c.baseDefense +
+    //           //             g.baseDefense;
+    //         });
+    //       });
+    //     });
+    //   });
+    // });
 
     const endTime = performance.now(); // End timing
     const duration = endTime - startTime; // Calculate duration
