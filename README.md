@@ -1,6 +1,10 @@
-# Mhbuilder
+# mhbuilder-ui
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
+
+## Notes
+
+Gathering data from: https://github.com/angheloko/mhr-builder/tree/master/content
 
 ## Development server
 
